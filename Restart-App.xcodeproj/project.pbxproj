@@ -14,6 +14,8 @@
 		F9FEDCA228DBA90E00B99CBE /* Restart_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FEDCA128DBA90E00B99CBE /* Restart_AppTests.swift */; };
 		F9FEDCAC28DBA90E00B99CBE /* Restart_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FEDCAB28DBA90E00B99CBE /* Restart_AppUITests.swift */; };
 		F9FEDCAE28DBA90E00B99CBE /* Restart_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FEDCAD28DBA90E00B99CBE /* Restart_AppUITestsLaunchTests.swift */; };
+		F9FEDCBD28DBA9F000B99CBE /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9FEDCBB28DBA9F000B99CBE /* chimeup.mp3 */; };
+		F9FEDCBE28DBA9F000B99CBE /* success.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F9FEDCBC28DBA9F000B99CBE /* success.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		F9FEDCA728DBA90E00B99CBE /* Restart-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Restart-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9FEDCAB28DBA90E00B99CBE /* Restart_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restart_AppUITests.swift; sourceTree = "<group>"; };
 		F9FEDCAD28DBA90E00B99CBE /* Restart_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restart_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F9FEDCBB28DBA9F000B99CBE /* chimeup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chimeup.mp3; sourceTree = "<group>"; };
+		F9FEDCBC28DBA9F000B99CBE /* success.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = success.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +98,11 @@
 		F9FEDC8F28DBA90C00B99CBE /* Restart-App */ = {
 			isa = PBXGroup;
 			children = (
+				F9FEDCC128DBAB7D00B99CBE /* Utilities */,
+				F9FEDCC028DBAB5A00B99CBE /* Views */,
+				F9FEDCBF28DBAB4B00B99CBE /* Screens */,
+				F9FEDCBA28DBA9F000B99CBE /* Sounds */,
 				F9FEDC9028DBA90C00B99CBE /* Restart_AppApp.swift */,
-				F9FEDC9228DBA90C00B99CBE /* ContentView.swift */,
 				F9FEDC9428DBA90D00B99CBE /* Assets.xcassets */,
 				F9FEDC9628DBA90D00B99CBE /* Preview Content */,
 			);
@@ -125,6 +132,37 @@
 				F9FEDCAD28DBA90E00B99CBE /* Restart_AppUITestsLaunchTests.swift */,
 			);
 			path = "Restart-AppUITests";
+			sourceTree = "<group>";
+		};
+		F9FEDCBA28DBA9F000B99CBE /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				F9FEDCBB28DBA9F000B99CBE /* chimeup.mp3 */,
+				F9FEDCBC28DBA9F000B99CBE /* success.m4a */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		F9FEDCBF28DBAB4B00B99CBE /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				F9FEDC9228DBA90C00B99CBE /* ContentView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		F9FEDCC028DBAB5A00B99CBE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F9FEDCC128DBAB7D00B99CBE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +269,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9FEDCBE28DBA9F000B99CBE /* success.m4a in Resources */,
+				F9FEDCBD28DBA9F000B99CBE /* chimeup.mp3 in Resources */,
 				F9FEDC9828DBA90D00B99CBE /* Preview Assets.xcassets in Resources */,
 				F9FEDC9528DBA90D00B99CBE /* Assets.xcassets in Resources */,
 			);
