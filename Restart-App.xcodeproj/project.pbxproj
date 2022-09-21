@@ -16,6 +16,8 @@
 		F9FEDCAE28DBA90E00B99CBE /* Restart_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FEDCAD28DBA90E00B99CBE /* Restart_AppUITestsLaunchTests.swift */; };
 		F9FEDCBD28DBA9F000B99CBE /* chimeup.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F9FEDCBB28DBA9F000B99CBE /* chimeup.mp3 */; };
 		F9FEDCBE28DBA9F000B99CBE /* success.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F9FEDCBC28DBA9F000B99CBE /* success.m4a */; };
+		F9FEDCC428DBAFA900B99CBE /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FEDCC328DBAFA900B99CBE /* OnboardingView.swift */; };
+		F9FEDCC628DBAFC500B99CBE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FEDCC528DBAFC500B99CBE /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		F9FEDCBB28DBA9F000B99CBE /* chimeup.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chimeup.mp3; sourceTree = "<group>"; };
 		F9FEDCBC28DBA9F000B99CBE /* success.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = success.m4a; sourceTree = "<group>"; };
 		F9FEDCC228DBAD2200B99CBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F9FEDCC328DBAFA900B99CBE /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		F9FEDCC528DBAFC500B99CBE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +153,8 @@
 			isa = PBXGroup;
 			children = (
 				F9FEDC9228DBA90C00B99CBE /* ContentView.swift */,
+				F9FEDCC328DBAFA900B99CBE /* OnboardingView.swift */,
+				F9FEDCC528DBAFC500B99CBE /* HomeView.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -299,6 +305,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9FEDCC428DBAFA900B99CBE /* OnboardingView.swift in Sources */,
+				F9FEDCC628DBAFC500B99CBE /* HomeView.swift in Sources */,
 				F9FEDC9328DBA90C00B99CBE /* ContentView.swift in Sources */,
 				F9FEDC9128DBA90C00B99CBE /* Restart_AppApp.swift in Sources */,
 			);
